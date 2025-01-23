@@ -1,0 +1,24 @@
+<!doctype html>
+<script type=module src="./form-field-element.js?define"></script>
+
+<form>
+	<form-field>
+		<label slot="label" for="username">Username</label>
+		<input slot="control" id="username" name="username" type="text">
+	</form-field>
+
+	<form-field>
+		<input slot="control" id="username-flipped" name="username-flipped" type="text">
+		<label slot="label" for="username-flipped">Username</label>
+	</form-field>
+
+	<form-field>
+		<input slot="control" id="do-not-obey" name="do-not-obey" type="checkbox" checked>
+		<label slot="label" for="do-not-obey">Do not obey in advance</label>
+	</form-field>
+
+	<form-field>
+		<label slot="label" for="do-not-obey-flipped">Do not obey in advance</label>
+		<input slot="control" id="do-not-obey-flipped" name="do-not-obey-flipped" type="checkbox" checked>
+	</form-field>
+</form>
