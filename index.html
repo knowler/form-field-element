@@ -1,15 +1,27 @@
 <!doctype html>
 <meta charset="utf-8">
 <meta name=viewport content="width=device-width,initial-scale=1">
-<title><form-field-element> demo</title>
+<title><form-field> element demo</title>
 <style>
 :root {
 	color-scheme: dark light;
 	font-family: system-ui, sans-serif;
 	font-feature-settings: "ss06";
 }
+
+form {
+	display: grid;
+	justify-content: start;
+	gap: 0.5rem;
+}
+
+form-field {
+	gap: 0.25rem;
+}
 </style>
 <script type=module src="./form-field-element.js?define" blocking="render"></script>
+
+<h1><code>&lt;form-field></code> element</h1>
 
 <form>
 	<form-field>
